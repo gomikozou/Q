@@ -1,0 +1,86 @@
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\Q.exe.config
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\Q.exe
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\Q.pdb
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.csproj.AssemblyReference.cache
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.Form1.resources
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.Properties.Resources.resources
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.csproj.GenerateResource.cache
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.csproj.CoreCompileInputs.cache
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.exe
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.pdb
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.Study.resources
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.NewCreate.resources
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\EntityFramework.dll
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\System.Data.SQLite.dll
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\EntityFramework.xml
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\bin\Debug\System.Data.SQLite.xml
+C:\Users\csharp\OneDrive\デスクトップ\C教室\My Create\Q\Q\obj\Debug\Q.csproj.Up2Date
+F:\Q\Q\bin\Debug\Q.exe.config
+F:\Q\Q\bin\Debug\Q.exe
+F:\Q\Q\bin\Debug\Q.pdb
+F:\Q\Q\bin\Debug\EntityFramework.dll
+F:\Q\Q\bin\Debug\EntityFramework.SqlServer.dll
+F:\Q\Q\bin\Debug\System.Data.SQLite.dll
+F:\Q\Q\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Q\Q\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Q\Q\bin\Debug\EntityFramework.xml
+F:\Q\Q\bin\Debug\EntityFramework.SqlServer.xml
+F:\Q\Q\bin\Debug\System.Data.SQLite.xml
+F:\Q\Q\obj\Debug\Q.csproj.AssemblyReference.cache
+F:\Q\Q\obj\Debug\Q.Form1.resources
+F:\Q\Q\obj\Debug\Q.NewCreate.resources
+F:\Q\Q\obj\Debug\Q.Properties.Resources.resources
+F:\Q\Q\obj\Debug\Q.Study.resources
+F:\Q\Q\obj\Debug\Q.csproj.GenerateResource.cache
+F:\Q\Q\obj\Debug\Q.csproj.CoreCompileInputs.cache
+F:\Q\Q\obj\Debug\Q.csproj.Up2Date
+F:\Q\Q\obj\Debug\Q.exe
+F:\Q\Q\obj\Debug\Q.pdb
+F:\Q,backup\Q\bin\Debug\Q.exe.config
+F:\Q,backup\Q\bin\Debug\Q.exe
+F:\Q,backup\Q\bin\Debug\Q.pdb
+F:\Q,backup\Q\bin\Debug\EntityFramework.dll
+F:\Q,backup\Q\bin\Debug\EntityFramework.SqlServer.dll
+F:\Q,backup\Q\bin\Debug\System.Data.SQLite.dll
+F:\Q,backup\Q\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Q,backup\Q\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Q,backup\Q\bin\Debug\EntityFramework.xml
+F:\Q,backup\Q\bin\Debug\EntityFramework.SqlServer.xml
+F:\Q,backup\Q\bin\Debug\System.Data.SQLite.xml
+F:\Q,backup\Q\obj\Debug\Q.csproj.AssemblyReference.cache
+F:\Q,backup\Q\obj\Debug\Q.Form1.resources
+F:\Q,backup\Q\obj\Debug\Q.NewCreate.resources
+F:\Q,backup\Q\obj\Debug\Q.Properties.Resources.resources
+F:\Q,backup\Q\obj\Debug\Q.Study.resources
+F:\Q,backup\Q\obj\Debug\Q.csproj.GenerateResource.cache
+F:\Q,backup\Q\obj\Debug\Q.csproj.CoreCompileInputs.cache
+F:\Q,backup\Q\obj\Debug\Q.csproj.Up2Date
+F:\Q,backup\Q\obj\Debug\Q.exe
+F:\Q,backup\Q\obj\Debug\Q.pdb
+F:\Q,backup - コピー\Q\bin\Debug\Q.exe.config
+F:\Q,backup - コピー\Q\bin\Debug\Q.exe
+F:\Q,backup - コピー\Q\bin\Debug\Q.pdb
+F:\Q,backup - コピー\Q\bin\Debug\EntityFramework.dll
+F:\Q,backup - コピー\Q\bin\Debug\EntityFramework.SqlServer.dll
+F:\Q,backup - コピー\Q\bin\Debug\System.Data.SQLite.dll
+F:\Q,backup - コピー\Q\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Q,backup - コピー\Q\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Q,backup - コピー\Q\bin\Debug\EntityFramework.xml
+F:\Q,backup - コピー\Q\bin\Debug\EntityFramework.SqlServer.xml
+F:\Q,backup - コピー\Q\bin\Debug\System.Data.SQLite.xml
+F:\Q,backup - コピー\Q\obj\Debug\Q.csproj.AssemblyReference.cache
+F:\Q,backup - コピー\Q\obj\Debug\Q.Form1.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.NewCreate.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.HardStudy.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.NormalStudy.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.Properties.Resources.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.Study.resources
+F:\Q,backup - コピー\Q\obj\Debug\Q.csproj.GenerateResource.cache
+F:\Q,backup - コピー\Q\obj\Debug\Q.csproj.CoreCompileInputs.cache
+F:\Q,backup - コピー\Q\obj\Debug\Q.csproj.Up2Date
+F:\Q,backup - コピー\Q\obj\Debug\Q.exe
+F:\Q,backup - コピー\Q\obj\Debug\Q.pdb
