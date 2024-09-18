@@ -129,7 +129,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[2])
                 {
-                    if (answerTextBox.Text == "4")
+                    if (answerTextBox.Text == "2")
                     {
                         correctCount++;
                         answerTextBox.Text = "";
