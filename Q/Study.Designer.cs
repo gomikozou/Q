@@ -36,9 +36,9 @@
             this.btnEndResult = new System.Windows.Forms.Button();
             this.btnContinue = new System.Windows.Forms.Button();
             this.studyScore = new System.Windows.Forms.Label();
-            this.btnBack = new System.Windows.Forms.Button();
             this.pictureNoCorrect = new System.Windows.Forms.PictureBox();
             this.pictureCorrect = new System.Windows.Forms.PictureBox();
+            this.btnBack = new System.Windows.Forms.Button();
             this.panelStudy.SuspendLayout();
             this.panelStudyResulte.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureNoCorrect)).BeginInit();
@@ -139,18 +139,6 @@
             this.studyScore.TabIndex = 0;
             this.studyScore.Text = "1点";
             // 
-            // btnBack
-            // 
-            this.btnBack.BackColor = System.Drawing.Color.White;
-            this.btnBack.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.btnBack.Location = new System.Drawing.Point(39, 371);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(94, 47);
-            this.btnBack.TabIndex = 5;
-            this.btnBack.Text = "戻る";
-            this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
             // pictureNoCorrect
             // 
             this.pictureNoCorrect.Image = global::Q.Properties.Resources._25508917;
@@ -170,6 +158,18 @@
             this.pictureCorrect.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureCorrect.TabIndex = 8;
             this.pictureCorrect.TabStop = false;
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.White;
+            this.btnBack.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.btnBack.Location = new System.Drawing.Point(39, 371);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(94, 47);
+            this.btnBack.TabIndex = 5;
+            this.btnBack.Text = "戻る";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Study
             // 
