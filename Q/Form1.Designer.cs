@@ -156,7 +156,7 @@
             this.labelShowUserName.AutoSize = true;
             this.labelShowUserName.Font = new System.Drawing.Font("MS UI Gothic", 15F);
             this.labelShowUserName.ForeColor = System.Drawing.Color.White;
-            this.labelShowUserName.Location = new System.Drawing.Point(648, 9);
+            this.labelShowUserName.Location = new System.Drawing.Point(605, 9);
             this.labelShowUserName.Name = "labelShowUserName";
             this.labelShowUserName.Size = new System.Drawing.Size(145, 20);
             this.labelShowUserName.TabIndex = 7;

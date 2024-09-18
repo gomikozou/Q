@@ -29,6 +29,7 @@ namespace Q
 
         public void ReStart()
         {
+            correctCount = 0;
             questionLabel.Text = question[0];
 
             pictureCorrect.Visible = false;
@@ -155,7 +156,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[3])
                 {
-                    if (answerTextBox.Text == "たいよう")
+                    if (answerTextBox.Text == "たいよう" || answerTextBox.Text == "taiyou")
                     {
                         correctCount++;
                         answerTextBox.Text = "";
@@ -182,7 +183,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[4])
                 {
-                    if (answerTextBox.Text == "かわ")
+                    if (answerTextBox.Text == "かわ" || answerTextBox.Text == "kawa")
                     {
                         correctCount++;
                         answerTextBox.Text = "";

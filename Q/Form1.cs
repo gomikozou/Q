@@ -22,7 +22,7 @@ namespace Q
             userCheckNum = 0;
 
             panel2.Visible = false;
-            labelShowUserName.Visible = false;
+            labelShowUserName.Text = "ログインしていません";
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -46,14 +46,18 @@ namespace Q
             newCreate.ShowDialog();
             if (loginOk == 1)
             {
-                labelShowUserName.Visible = true;
+                labelShowUserName.Text = "ログインしています";
+            }
+            else
+            {
+                labelShowUserName.Text = "ログインしていません";
             }
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
             loginOk = 0;
-            labelShowUserName.Visible = false;
+            labelShowUserName.Text = "ログインしていません";
             MessageBox.Show("ログアウトしました");
         }
 
