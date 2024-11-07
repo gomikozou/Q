@@ -61,27 +61,35 @@ namespace Q
             MessageBox.Show("ログアウトしました");
         }
 
-        private void btnEasy_Click(object sender, EventArgs e)
-        {
-            Study study = new Study();
-            study.ShowDialog();
-        }
-
         private void btnBack_Click(object sender, EventArgs e)
         {
             panel2.Visible = false;
         }
 
-        private void btnHard_Click(object sender, EventArgs e)
+
+        private void btnEasy_Click(object sender, EventArgs e)
         {
-            HardStudy study = new HardStudy();
+            List<string> question = new List<string> { "1 + 1 = ?", "2 × 8 = ?", "8 ÷ 4 = ?", "太陽の読み方は？", "川の読み方は？" };
+            List<string> answer = new List<string> { "2", "16", "2", "たいよう", "かわ" };
+            Study study = new Study(question, answer);
             study.ShowDialog();
         }
 
         private void btnNormal_Click(object sender, EventArgs e)
         {
-            NormalStudy study = new NormalStudy();
+            List<string> question = new List<string> { "89 + 507 = ?" , "20 × 8 = ?", "200 ÷ 4 = ?","容赦の読み方は？", "罪業の読み方は？" };
+            List<string> answer = new List<string> { "596", "160", "50", "ようしゃ", "ざいごう" };
+            Study study = new Study(question, answer);
             study.ShowDialog();
         }
+
+        private void btnHard_Click(object sender, EventArgs e)
+        {
+            List<string> question = new List<string> { "378 + 5894 = ?", "367 × 47 = ?", "336 ÷ 12 = ?", "梲の読み方は？", "偶の読み方は？" };
+            List<string> answer = new List<string> { "6272", "17249", "28", "うだつ", "たまたま" };
+            Study study = new Study(question, answer);
+            study.ShowDialog();
+        }
+
     }
 }

@@ -15,15 +15,17 @@ namespace Q
 {
     public partial class Study : Form
     {
-        List<string> question = new List<string> { "1 + 1 = ?" , "2 × 8 = ?", "8 ÷ 4 = ?",
-                                      "太陽の読み方は？", "川の読み方は？" };
+        private List<string> question;
+        private List<string> answer;
 
         string currentQuestion;
         public int correctCount = 0;
 
-        public Study()
+        public Study(List<string> question, List<string> answer)
         {
             InitializeComponent();
+            this.question = question;
+            this.answer = answer;
             ReStart();
         }
 
@@ -45,18 +47,30 @@ namespace Q
             if (questionLabel.Text == question[0])
             {
                 questionLabel.Text = question[1];
+
+                pictureCorrect.Visible = false;
+                pictureNoCorrect.Visible = false;
             }
             else if (questionLabel.Text == question[1])
             {
                 questionLabel.Text = question[2];
+
+                pictureCorrect.Visible = false;
+                pictureNoCorrect.Visible = false;
             }
             else if (questionLabel.Text == question[2])
             {
                 questionLabel.Text = question[3];
+
+                pictureCorrect.Visible = false;
+                pictureNoCorrect.Visible = false;
             }
             else if (questionLabel.Text == question[3])
             {
                 questionLabel.Text = question[4];
+
+                pictureCorrect.Visible = false;
+                pictureNoCorrect.Visible = false;
             }
             else if (questionLabel.Text == question[4])
             {
@@ -77,7 +91,7 @@ namespace Q
             {
                 if (questionLabel.Text == question[0])
                 {
-                    if (answerTextBox.Text == "2")
+                    if (answerTextBox.Text == answer[0])
                     {
                         correctCount++;
                         answerTextBox.Text = "";
@@ -103,7 +117,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[1])
                 {
-                    if (answerTextBox.Text == "16")
+                    if (answerTextBox.Text == answer[1])
                     {
                         correctCount++;
                         answerTextBox.Text = "";
@@ -130,7 +144,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[2])
                 {
-                    if (answerTextBox.Text == "2")
+                    if (answerTextBox.Text == answer[2])
                     {
                         correctCount++;
                         answerTextBox.Text = "";
@@ -156,7 +170,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[3])
                 {
-                    if (answerTextBox.Text == "たいよう" || answerTextBox.Text == "taiyou")
+                    if (answerTextBox.Text == answer[3])
                     {
                         correctCount++;
                         answerTextBox.Text = "";
@@ -183,7 +197,7 @@ namespace Q
 
                 else if (questionLabel.Text == question[4])
                 {
-                    if (answerTextBox.Text == "かわ" || answerTextBox.Text == "kawa")
+                    if (answerTextBox.Text == answer[4])
                     {
                         correctCount++;
                         answerTextBox.Text = "";
