@@ -90,6 +90,5 @@ namespace Q
             Study study = new Study(question, answer);
             study.ShowDialog();
         }
-
     }
 }

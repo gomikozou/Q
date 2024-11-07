@@ -24,6 +24,7 @@ namespace Q
         public Study(List<string> question, List<string> answer)
         {
             InitializeComponent();
+            remainingQuestion.Text = "問題数 1/5";
             this.question = question;
             this.answer = answer;
             ReStart();
@@ -33,6 +34,8 @@ namespace Q
         {
             correctCount = 0;
             questionLabel.Text = question[0];
+
+            remainingQuestion.Text = "問題数 1/5";
 
             pictureCorrect.Visible = false;
             pictureNoCorrect.Visible = false;
@@ -48,35 +51,38 @@ namespace Q
             {
                 questionLabel.Text = question[1];
 
-                pictureCorrect.Visible = false;
-                pictureNoCorrect.Visible = false;
+                remainingQuestion.Text = "問題数 2/5";
             }
             else if (questionLabel.Text == question[1])
             {
                 questionLabel.Text = question[2];
 
-                pictureCorrect.Visible = false;
-                pictureNoCorrect.Visible = false;
+                remainingQuestion.Text = "問題数 3/5";
             }
             else if (questionLabel.Text == question[2])
             {
                 questionLabel.Text = question[3];
 
-                pictureCorrect.Visible = false;
-                pictureNoCorrect.Visible = false;
+                remainingQuestion.Text = "問題数 4/5";
             }
             else if (questionLabel.Text == question[3])
             {
                 questionLabel.Text = question[4];
 
-                pictureCorrect.Visible = false;
-                pictureNoCorrect.Visible = false;
+                remainingQuestion.Text = "問題数 5/5";
             }
             else if (questionLabel.Text == question[4])
             {
+                remainingQuestion.Text = "";
+                answerTextBox.Text = "";
+                studyScore.Text = correctCount.ToString() + "点";
+
+                pictureCorrect.Visible = false;
+                pictureNoCorrect.Visible = false;
+                timer1.Start();
+
                 panelStudy.Visible = true;
                 panelStudyResulte.Visible = true;
-                studyScore.Text = correctCount.ToString() + "点";
             }
         }
 
@@ -91,6 +97,8 @@ namespace Q
             {
                 if (questionLabel.Text == question[0])
                 {
+                    remainingQuestion.Text = "問題数 2/5";
+
                     if (answerTextBox.Text == answer[0])
                     {
                         correctCount++;
@@ -98,7 +106,7 @@ namespace Q
 
                         pictureCorrect.Visible = true;
                         pictureNoCorrect.Visible = false;
-
+                        timer1.Start();
 
                         questionLabel.Text = question[1];
                     }
@@ -109,6 +117,7 @@ namespace Q
 
                         pictureCorrect.Visible = false;
                         pictureNoCorrect.Visible = true;
+                        timer1.Start();
 
                         questionLabel.Text = question[1];
                     }
@@ -117,6 +126,8 @@ namespace Q
 
                 else if (questionLabel.Text == question[1])
                 {
+                    remainingQuestion.Text = "問題数 3/5";
+
                     if (answerTextBox.Text == answer[1])
                     {
                         correctCount++;
@@ -125,6 +136,7 @@ namespace Q
 
                         pictureCorrect.Visible = true;
                         pictureNoCorrect.Visible = false;
+                        timer1.Start();
 
                         questionLabel.Text = question[2];
 
@@ -136,6 +148,7 @@ namespace Q
 
                         pictureCorrect.Visible = false;
                         pictureNoCorrect.Visible = true;
+                        timer1.Start();
 
                         questionLabel.Text = question[2];
                     }
@@ -144,6 +157,8 @@ namespace Q
 
                 else if (questionLabel.Text == question[2])
                 {
+                    remainingQuestion.Text = "問題数 4/5";
+
                     if (answerTextBox.Text == answer[2])
                     {
                         correctCount++;
@@ -152,6 +167,7 @@ namespace Q
 
                         pictureCorrect.Visible = true;
                         pictureNoCorrect.Visible = false;
+                        timer1.Start();
 
                         questionLabel.Text = question[3];
                     }
@@ -162,6 +178,7 @@ namespace Q
 
                         pictureCorrect.Visible = false;
                         pictureNoCorrect.Visible = true;
+                        timer1.Start();
 
                         questionLabel.Text = question[3];
                     }
@@ -170,6 +187,8 @@ namespace Q
 
                 else if (questionLabel.Text == question[3])
                 {
+                    remainingQuestion.Text = "問題数 5/5";
+
                     if (answerTextBox.Text == answer[3])
                     {
                         correctCount++;
@@ -178,6 +197,7 @@ namespace Q
 
                         pictureCorrect.Visible = true;
                         pictureNoCorrect.Visible = false;
+                        timer1.Start();
 
                         questionLabel.Text = question[4];
 
@@ -189,6 +209,7 @@ namespace Q
 
                         pictureCorrect.Visible = false;
                         pictureNoCorrect.Visible = true;
+                        timer1.Start();
 
                         questionLabel.Text = question[4];
                     }
@@ -200,23 +221,27 @@ namespace Q
                     if (answerTextBox.Text == answer[4])
                     {
                         correctCount++;
+                        remainingQuestion.Text = "";
                         answerTextBox.Text = "";
                         studyScore.Text = correctCount.ToString() + "点";
 
 
                         pictureCorrect.Visible = true;
                         pictureNoCorrect.Visible = false;
+                        timer1.Start();
 
                         panelStudy.Visible = true;
                         panelStudyResulte.Visible = true;
                     }
                     else
                     {
+                        remainingQuestion.Text = "";
                         answerTextBox.Text = "";
                         studyScore.Text = correctCount.ToString() + "点";
 
                         pictureCorrect.Visible = false;
                         pictureNoCorrect.Visible = true;
+                        timer1.Start();
 
                         panelStudy.Visible = true;
                         panelStudyResulte.Visible = true;
@@ -233,6 +258,13 @@ namespace Q
         private void btnEndResult_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            pictureCorrect.Visible = false;
+            pictureNoCorrect.Visible = false;
+            timer1.Stop();
         }
     }
 }
